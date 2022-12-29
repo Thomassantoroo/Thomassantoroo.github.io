@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost/</loc>
+    <lastmod>2022-05-25T13:15:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost/projets/toto/</loc>
+    <lastmod>2022-05-25T13:15:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost/projets/mon_premier_projet/</loc>
+    <lastmod>2022-05-25T13:15:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost/projets/mon_deuxieme_projet/</loc>
+    <lastmod>2022-05-25T13:15:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost/projets/</loc>
+    <lastmod>2022-05-25T13:15:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost/blog/</loc>
+    <lastmod>2022-04-27T17:19:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost/blog/mon-premier-article/</loc>
+    <lastmod>2022-04-27T17:19:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost/categories/</loc>
+  </url><url>
+    <loc>http://localhost/tags/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,51 @@
+
+{{ define "main" }}
+{{ range .Pages }} 
+   <a href="{{ .Permalink }}">{{ .Title }}</a> 
+   <div class="conteneur">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="/images/index.jpg" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-48x48">
+              <img src="/images/index.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">{{ .Title }}</p>
+            <p class="subtitle is-6">{{ .Site.Params.Author }}</p>
+          </div>
+        </div>
+    
+        <div class="content">
+         Profitez de mes projets ! <a>@thomasSantoro
+         </a>
+         <br>
+         <time datetime="2016-1-1">mercredi 1 juin 17h</time>
+       </div>
+      <div columns>
+
+        columns: 18em;
+
+        columns: 1;
+        columns: auto;
+
+        columns: 1 auto;
+        columns: auto 12em;
+        columns: auto auto;
+
+        columns: inherit;
+        columns: initial;
+        columns: unset;
+        
+
+      </div columns>
+    </div>
+    {{ end }}
+   </div> 
+   {{ end}}

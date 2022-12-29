@@ -1,0 +1,30 @@
+baseURL = 'http://localhost/'
+languageCode = 'fr-fr'
+title = 'Mon e-Portfolio'
+theme = 'iutdelens'
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+
+[[menu.main]]
+  name = "Projets"
+  url = "/projets"
+
+[[menu.social]]
+  name = "GitLab"
+  url = "https://gitlab.univ-artois.fr/thomas_santoro"
+  pre = "<i class='fab fa-github'></i>"
+
+[[menu.social]]
+  name = "LinkedIn"
+  url = ""
+  pre = "<i class='fab fa-linkedin'></i>"
+
+[[menu.footer]]
+name = "À propos"
+url = "/a-propos"
+
+[[params]]
+  author = "Moi" 
+  authorImage = "/themes/iutdelens/static/images/index.jpg"

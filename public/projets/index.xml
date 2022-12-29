@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projets on Mon e-Portfolio</title>
+    <link>http://localhost/projets/</link>
+    <description>Recent content in Projets on Mon e-Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 25 May 2022 13:15:21 +0200</lastBuildDate><atom:link href="http://localhost/projets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet 1</title>
+      <link>http://localhost/projets/toto/</link>
+      <pubDate>Wed, 25 May 2022 13:15:21 +0200</pubDate>
+      
+      <guid>http://localhost/projets/toto/</guid>
+      <description>Un titre Du texte pour illustrer mon projet.</description>
+    </item>
+    
+    <item>
+      <title>Projet 1 bis</title>
+      <link>http://localhost/projets/mon_premier_projet/</link>
+      <pubDate>Wed, 25 May 2022 13:15:21 +0200</pubDate>
+      
+      <guid>http://localhost/projets/mon_premier_projet/</guid>
+      <description>Premier projet ceci est mon premier projet.</description>
+    </item>
+    
+    <item>
+      <title>Projet 2</title>
+      <link>http://localhost/projets/mon_deuxieme_projet/</link>
+      <pubDate>Wed, 25 May 2022 13:15:21 +0200</pubDate>
+      
+      <guid>http://localhost/projets/mon_deuxieme_projet/</guid>
+      <description>Deuxième projet ceci est mon deuxieme projet</description>
+    </item>
+    
+  </channel>
+</rss>

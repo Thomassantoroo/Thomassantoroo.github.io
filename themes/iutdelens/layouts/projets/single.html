@@ -1,0 +1,15 @@
+{{ with .Site.Params.authorImage }} 
+  <div> 
+    <img src="{{ . }}" /> 
+  </div> 
+{{ end }}
+{{ .Site.Params.Author }}
+{{ .ReadingTime }} {{ if eq .ReadingTime 1 }} 5 {{ else }} 5 {{ end }}</p>
+categories : ["Projet", "Développement web"]
+{{ range $idx, $category := .Params.categories }} 
+  {{- if ne $idx 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ $category | urlize }}"> 
+  {{ $category }} 
+  </a> 
+{{- end }}
+
+{{ .Content }}
